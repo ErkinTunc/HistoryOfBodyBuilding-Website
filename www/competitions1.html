@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erkin Tunc Boya">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="bodybuilding history page">
+        
+    <title>History Of Bodybuilding</title>
+        
+    
+    
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/text.css">
+    <link rel="stylesheet" href="styles/flexbox.css">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/images.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  
+  <body>
+
+    <div class="sidebar">
+      
+      <div class="top">
+        <div class="logo">
+          <i class="bx bxl-codepen"></i>
+          <span>History Of Bodybuilding
+          </span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      
+      <div class="user">
+        <img src="img/solaire-doll.jpg" alt="me" class="user-img">
+        <div>
+          <p class="bold">Client B.</p>
+          <p>Admin</p>
+        </div>
+      </div>
+
+
+      <ul>
+
+        <li> 
+          <a href="index.html">
+            <i class="bx bxs-grid-alt"></i>
+            <span class="nav-item"> Dashboard</span>
+          </a>  
+          <span class="tooltip">Dashboard</span>
+        </li>
+
+        <li> 
+          <a href="structure2.html">
+            <i class="bx bxs-food-menu"></i>
+            <span class="nav-item">Eras</span>
+          </a>  
+          <span class="tooltip">Eras</span>
+        </li>
+
+        <li> 
+          <a href="structure3.html">
+            <i class="bx bx-list-check"></i>
+            <span class="nav-item">MuscleGrowth</span>
+          </a>  
+          <span class="tooltip">Muscle Growth</span>
+        </li>
+
+
+        <li> 
+          <a href="structure4.html">
+            <i class="bx bx-video"></i>
+            <span class="nav-item">Videos</span>
+          </a>  
+          <span class="tooltip">Videos</span>
+        </li>
+
+
+        <li> 
+          <a href="structure5.html">
+            <i class="bx bx-store"></i>
+            <span class="nav-item">Orders</span>
+          </a>  
+          <span class="tooltip">Orders</span>
+        </li>
+
+        <li> 
+          <a href="login.html">
+            <i class="bx bxs-log-in"></i>
+            <span class="nav-item">Login</span>
+          </a>  
+          <span class="tooltip">Login</span>
+        </li>
+
+        <li> 
+          <a href="#">
+            <i class="bx bxs-log-out"></i>
+            <span class="nav-item">Logout</span>
+          </a>  
+          <span class="tooltip">Logout</span>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <div class="container">
+        
+        
+        <h1 class="title-text2">John Grimek's Bodybuilding Competitions</h1>
+
+        <article class="center">
+            <table>
+            <caption>John Grimek's Bodybuilding Titles</caption>
+            <thead>
+                <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Title(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>1940</td>
+                <td>Mr. America</td>
+                </tr>
+                <tr>
+                <td>1941</td>
+                <td>Mr. America</td>
+                </tr>
+                <tr>
+                <td>1948</td>
+                <td>Mr. Universe</td>
+                </tr>
+                <tr>
+                <td>1949</td>
+                <td>AAU Mr. USA</td>
+                </tr>
+            </tbody>
+            </table>
+        </article>
+
+        <article class="center">
+            <p>John Grimek was born in Perth Amboy, New Jersey, the son of Slovak immigrants George and Maria Grimek, peasants from the village Ústie nad Oravou in northern Slovakia. He moved to York, Pennsylvania in 1935 to join Bob Hoffman, the founder of York Barbell. Besides his bodybuilding exploits, Grimek also represented the United States in weightlifting at the 1936 Olympic Games in Berlin, where he took 9th place in the men's heavyweight category. Grimek retired from bodybuilding undefeated.</p>
+        </article>
+        
+        <footer>
+          <ul class="menu-container">
+            <li><a href="index.html" class="join-button2">Dashboard</a></li>
+            <li><a href="structure2.html" class="join-button2">Eras of Bodybuilding</a></li>
+            <li><a href="structure3.html" class="join-button2">Muscle Growth</a></li>
+            <li><a href="structure4.html" class="join-button2">Videos</a></li>
+            <li><a href="structure5.html" class="join-button2">Orders</a></li>
+          </ul>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      let btn = document.querySelector("#btn")
+      let sidebar = document.querySelector(".sidebar")
+
+      btn.onclick = function() {
+      sidebar.classList.toggle("active");
+     };
+    </script>
+  </body>
+
+  
+
+
+</html>
+
+
+

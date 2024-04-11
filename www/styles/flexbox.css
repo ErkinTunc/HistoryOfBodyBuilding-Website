@@ -1,0 +1,35 @@
+
+	nav {
+		display: block;
+	}
+
+	nav ul {
+		list-style-type: none;
+		padding: 0px;
+	}
+
+    .menu-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.container-aside{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		
+	}
+    
+
+	ul {
+		list-style: none;
+	  }
+
+    

@@ -1,0 +1,57 @@
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%; /* Set max-width to 100% for responsiveness */
+    height: auto;   /* Ensure the aspect ratio is maintained */
+  }
+
+  .right {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5% ;
+    max-width: 60%;
+  }
+
+
+  .page2-img {
+    width: 100%; /* Set the image width to 100% of the container */
+    max-width: 100%;
+    float: right; /* Float the image to the right */
+    /*padding:0px 0px 10px 10px;*/
+  }
+
+  figure{
+    display: block;
+  }
+
+  figure {
+    /*border: thin #c0c0c0 solid;*/
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    min-width: 150px;
+    max-width: 30%;
+    margin: auto;
+    float: right;
+    padding:0px 0px 10px 10px;
+  }
+  
+ 
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  iframe{ /*Cheanges the video witdth & height*/
+    width: 100%;
+    height: 100%;
+    
+    min-width: 20%;
+    min-height: 20% ;
+  }

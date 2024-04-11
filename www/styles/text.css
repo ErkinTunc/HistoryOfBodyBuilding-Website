@@ -1,0 +1,99 @@
+
+  p {
+    font-family: "arial", sans-serif;
+    font-size: 14px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+    margin-bottom: 1em; /* adds 1 unit of spacing after each paragraph */
+  }
+
+
+  .main-title-text {
+    font-family: "Gothic";
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px ;
+    margin-left: 10% ;
+    margin-right: 10% ;
+    text-align: center;
+    color: white;
+  }
+
+  .title-text2{
+    color: #88BE98;
+    align-content: center;
+  }
+
+  h1 { 
+    color: #030303; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 54px; 
+    font-weight: 300; 
+    line-height: 58px; 
+    margin: 0 0 58px; 
+  }
+ 
+
+  .video-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 40px;
+  }
+
+  .video-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 320px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .video-author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+  }
+
+  .video-description { 
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+  }
+
+  
+
+  .apple-text { /*Apple error text*/
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .span-example {
+    color: red;
+  }
+
+  .span-example:hover {
+    text-decoration: underline;
+  }
+
+  .shop-link {
+    cursor: pointer;
+  }
+
+  .shop-link:hover {
+    text-decoration: underline;
+  }
+
+
+  .demo{
+    color: red;
+    text-align: center;
+  }

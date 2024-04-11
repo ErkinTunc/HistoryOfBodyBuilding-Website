@@ -1,0 +1,24 @@
+.chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#chatbox {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+input[type="text"], button {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
