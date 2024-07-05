@@ -5,6 +5,50 @@ A website about history of bodybuilding
 This project is a web application built with HTML, CSS, JavaScript, and Python. It includes various features such as user registration, login, and chat functionality.
 
 ## Directory Structure
+    Web/
+    ├── httpd.py
+    ├── data/
+    │   ├── chat.dat
+    │   └── user.dat
+    ├── templates/
+    │   └── register.xhtml
+    ├── www/
+    │   ├── chatbox.html
+    │   ├── competitions1.html
+    │   ├── competitions2.html
+    │   ├── competitions3.html
+    │   ├── index.html
+    │   ├── login.html
+    │   ├── register.html
+    │   ├── structure1.html
+    │   ├── structure2.html
+    │   ├── structure3.html
+    │   ├── structure4.html
+    │   ├── structure5.html
+    │   ├── htbin/
+    │   │   ├── chatget.py
+    │   │   ├── chatsend.py
+    │   │   ├── login.py
+    │   │   └── register.py
+    │   ├── img/
+    │   │   ├── arnold.jpg
+    │   │   ├── arnold_background.jpg
+    │   │   └── [other images]
+    │   ├── javascript/
+    │   │   ├── chatbox.js
+    │   │   ├── login.js
+    │   │   ├── registration.js
+    │   │   └── sidebar.js
+    │   └── styles/
+    │       ├── buttons.css
+    │       ├── chatbox.css
+    │       ├── default.css
+    │       ├── flexbox.css
+    │       ├── images.css
+    │       ├── login.css
+    │       ├── styles.css
+    │       ├── table.css
+    │       └── text.css
 
 
 ## Features
