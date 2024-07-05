@@ -89,8 +89,6 @@ This project is a web application built with HTML, CSS, JavaScript, and Python. 
   - **javascript/**: Contains JavaScript files for client-side functionality.
   - **styles/**: Contains CSS files for styling the web pages.
 
-## License
--
 
 ## Acknowledgements
 - Thanks to the developers of the libraries and tools used in this project.
