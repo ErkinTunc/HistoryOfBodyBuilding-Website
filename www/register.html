@@ -2,194 +2,229 @@
 
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Erkin Tunc Boya">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="description" content="bodybuilding history page">
-        
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Erkin Tunc Boya" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="bodybuilding history page" />
+
     <title>History Of Bodybuilding</title>
-        
-    
-    <link rel="stylesheet" href="styles/buttons.css">
-    <link rel="stylesheet" href="styles/text.css">
-    <link rel="stylesheet" href="styles/flexbox.css">
-    <link rel="stylesheet" href="styles/default.css">
-    <link rel="stylesheet" href="styles/images.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/login.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/text.css" />
+    <link rel="stylesheet" href="styles/flexbox.css" />
+    <link rel="stylesheet" href="styles/default.css" />
+    <link rel="stylesheet" href="styles/images.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  
-  <body>
 
+  <body>
     <nav class="sidebar">
-      
       <div class="top">
         <div class="logo">
           <i class="bx bxl-codepen"></i>
-          <span>History Of Bodybuilding
-          </span>
+          <span>History Of Bodybuilding </span>
         </div>
         <i class="bx bx-menu" id="btn"></i>
       </div>
-      
+
       <div class="user">
-        <img src="img/solaire-doll.jpg" alt="me" class="user-img">
+        <img src="img/solaire-doll.jpg" alt="me" class="user-img" />
         <div>
           <p class="bold">Client B.</p>
           <p>Admin</p>
         </div>
       </div>
 
-
       <ul>
-
-        <li> 
+        <li>
           <a href="index.html">
             <i class="bx bxs-grid-alt"></i>
             <span class="nav-item"> Dashboard</span>
-          </a>  
+          </a>
           <span class="tooltip">Dashboard</span>
         </li>
 
-        <li> 
+        <li>
           <a href="structure2.html">
             <i class="bx bxs-food-menu"></i>
             <span class="nav-item">Eras</span>
-          </a>  
+          </a>
           <span class="tooltip">Eras</span>
         </li>
 
-        <li> 
+        <li>
           <a href="structure3.html">
             <i class="bx bx-list-check"></i>
             <span class="nav-item">MuscleGrowth</span>
-          </a>  
+          </a>
           <span class="tooltip">Muscle Growth</span>
         </li>
 
-
-        <li> 
+        <li>
           <a href="structure4.html">
             <i class="bx bx-video"></i>
             <span class="nav-item">Videos</span>
-          </a>  
+          </a>
           <span class="tooltip">Videos</span>
         </li>
 
-
-        <li> 
+        <li>
           <a href="structure5.html">
             <i class="bx bx-store"></i>
             <span class="nav-item">Orders</span>
-          </a>  
+          </a>
           <span class="tooltip">Orders</span>
         </li>
 
-        <li> 
+        <li>
           <a href="login.html">
             <i class="bx bxs-log-in"></i>
             <span class="nav-item">Login</span>
-          </a>  
+          </a>
           <span class="tooltip">Login</span>
         </li>
 
-        <li> 
+        <li>
           <a href="#">
             <i class="bx bxs-log-out"></i>
             <span class="nav-item">Logout</span>
-          </a>  
+          </a>
           <span class="tooltip">Logout</span>
         </li>
-
       </ul>
     </nav>
 
     <div class="main-content">
       <div class="container">
-        
-
         <header>
-            <h1 class="main-title-text">History Of Bodybuilding</h1>
+          <h1 class="main-title-text">History Of Bodybuilding</h1>
         </header>
-              
+
         <main>
-            <nav class="menu-nav">
-              <ul class="menu-container">
-                <li><a href="index.html" class="join-button2">Dashboard</a></li>
-                <li><a href="structure2.html" class="join-button2">Eras of Bodybuilding</a></li>
-                <li><a href="structure3.html" class="join-button2">Muscle Growth</a></li>
-                <li><a href="structure4.html" class="join-button2">Videos</a></li>
-                <li><a href="structure5.html" class="join-button2">Orders</a></li>
-              </ul>
-            </nav>
-        </main>
-          
-        <div class="main">
-            <h3>Enter your registration credentials</h3>
-            
-            <form id="registrationForm" action="htbin/register.py" method="post">
-              <div class="input-control">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="Enter your Username"  autocomplete="username">
-                <div class="error"></div>
-              </div>
-
-              <div class="input-control">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail" placeholder="Enter your Email Address" autocomplete="email">
-                <div class="error"></div>
-              </div>
-
-              <div class="input-control">
-                <label for="userpwd">Password:</label>
-                <input type="password" id="userpwd" name="userpwd" placeholder="Enter your Password" autocomplete="new-password">
-                <div class="error"></div>
-              </div>
-              
-              <div class="input-control">
-                <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" autocomplete="given-name">
-                <div class="error"></div>
-              </div>
-              
-              <div class="input-control">
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name" autocomplete="family-name">
-                <div class="error"></div>
-              </div>
-
-              <div class="input-control">
-                <label for="birthdate">Birth Date:</label>
-                <input type="date" id="birthdate" name="birthdate"  autocomplete="bday">
-                <div class="error"></div>
-              </div>
-              
-                <div class="wrap">
-                  <button type="submit" id="submitBtn">Submit</button>
-                </div>
-            </form>
-            <p id="demo-p" class="demo"></p>
-        </div>
-              
-        <footer>
+          <nav class="menu-nav">
             <ul class="menu-container">
               <li><a href="index.html" class="join-button2">Dashboard</a></li>
-              <li><a href="structure2.html" class="join-button2">Eras of Bodybuilding</a></li>
-              <li><a href="structure3.html" class="join-button2">Muscle Growth</a></li>
+              <li>
+                <a href="structure2.html" class="join-button2"
+                  >Eras of Bodybuilding</a
+                >
+              </li>
+              <li>
+                <a href="structure3.html" class="join-button2">Muscle Growth</a>
+              </li>
               <li><a href="structure4.html" class="join-button2">Videos</a></li>
               <li><a href="structure5.html" class="join-button2">Orders</a></li>
             </ul>
-        </footer>
+          </nav>
+        </main>
 
+        <div class="main">
+          <h3>Enter your registration credentials</h3>
+
+          <form id="registrationForm" action="htbin/register.py" method="post">
+            <div class="input-control">
+              <label for="username">Username:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter your Username"
+                autocomplete="username"
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <label for="useremail">Email:</label>
+              <input
+                type="email"
+                id="useremail"
+                name="useremail"
+                placeholder="Enter your Email Address"
+                autocomplete="email"
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <label for="userpwd">Password:</label>
+              <input
+                type="password"
+                id="userpwd"
+                name="userpwd"
+                placeholder="Enter your Password"
+                autocomplete="new-password"
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <label for="firstname">First Name:</label>
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="Enter your First Name"
+                autocomplete="given-name"
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <label for="lastname">Last Name:</label>
+              <input
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Enter your Last Name"
+                autocomplete="family-name"
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <label for="birthdate">Birth Date:</label>
+              <input
+                type="date"
+                id="birthdate"
+                name="birthdate"
+                autocomplete="bday"
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="wrap">
+              <button type="submit" id="submitBtn">Submit</button>
+            </div>
+          </form>
+          <p id="demo-p" class="demo"></p>
+        </div>
+
+        <footer>
+          <ul class="menu-container">
+            <li><a href="index.html" class="join-button2">Dashboard</a></li>
+            <li>
+              <a href="structure2.html" class="join-button2"
+                >Eras of Bodybuilding</a
+              >
+            </li>
+            <li>
+              <a href="structure3.html" class="join-button2">Muscle Growth</a>
+            </li>
+            <li><a href="structure4.html" class="join-button2">Videos</a></li>
+            <li><a href="structure5.html" class="join-button2">Orders</a></li>
+          </ul>
+        </footer>
       </div>
     </div>
 
-
     <script src="javascript/registration.js"></script>
     <script src="javascript/sidebar.js"></script>
-
   </body>
 </html>
