@@ -127,7 +127,7 @@
   left: 125px;
   top: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.6);
   border-radius: 0.6rem;
   padding: 0.5rem 1.2rem;
   line-height: 1.8rem;
@@ -137,6 +137,7 @@
 
 .sidebar ul li:hover .tooltip {
   opacity: 1;
+  background-color: whitesmoke
 }
 
 .sidebar.active ul li .tooltip {
