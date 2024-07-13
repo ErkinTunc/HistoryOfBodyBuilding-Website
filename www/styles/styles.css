@@ -91,6 +91,7 @@
   width: 90%;
   margin: 0.8rem auto;
   line-height: 50px;
+  z-index: 1;
 }
 
 .sidebar ul li a {
@@ -131,13 +132,20 @@
   border-radius: 0.6rem;
   padding: 0.5rem 1.2rem;
   line-height: 1.8rem;
-  z-index: 20;
+  z-index: 10;
   opacity: 0;
 }
 
 .sidebar ul li:hover .tooltip {
   opacity: 1;
-  background-color: whitesmoke
+  background-color: whitesmoke;
+  position: absolute;
+  z-index: 20;
+}
+
+article{
+  z-index: 1;
+  position: relative;
 }
 
 .sidebar.active ul li .tooltip {
@@ -165,9 +173,3 @@
   width: calc(100% - 80px);
   padding: 1rem;
 }
-
-/*
-.container {
-    display: flex;
-    justify-content: space-between;
-}*/
