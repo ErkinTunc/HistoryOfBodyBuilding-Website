@@ -68,9 +68,6 @@ This project is a web application built with HTML, CSS, JavaScript, and Python. 
     http://localhost:****
 - Replace **** with the port number.
 
-## Usage
-- Access the web application in your browser at `http://localhost:8000`.
-- Register a new user account and log in to access chat functionality.
 
 ## File Descriptions
 - **httpd.py**: Main server script to run the web application.
