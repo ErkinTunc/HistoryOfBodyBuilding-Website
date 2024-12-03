@@ -57,13 +57,13 @@ This project is a web application built with HTML, CSS, JavaScript, and Python. 
 - **Chat Functionality**: Users can send and receive messages in a chatbox.
 - **Responsive Design**: The application is designed to be responsive and user-friendly.
 
-## Installation
+## Installation & Usage
 1. Navigate to the project folder.  
 2. Start the Python HTTP server:
    ```bash
    python httpd.py
 3. Note the generated four-digit port number (e.g., 8000).
-4. Access the site at
+4. Access the web application in your browser at
     ```bash
     http://localhost:****
 - Replace **** with the port number.
