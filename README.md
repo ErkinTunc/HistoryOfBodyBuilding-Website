@@ -1,12 +1,11 @@
 # HistoryOfBodyBuilding-Website
-A website about history of bodybuilding
 
-## Overview
+## 🌍 Overview
 This project is a web application built with HTML, CSS, JavaScript, and Python. It includes various features such as user registration, login, and chat functionality.
 
 ---
 
-## Features
+## ✨ Features
 - **User Registration**: Users can register an account.
 - **User Login**: Registered users can log in.
 - **Chat Functionality**: Users can send and receive messages in a chatbox.
@@ -21,7 +20,7 @@ You can view the live demo of the website here:
 
 ---
 
-## Installation & Usage
+## 🚀 Installation & Usage
 1. Navigate to the project folder.  
 2. Start the Python HTTP server:
    ```bash
