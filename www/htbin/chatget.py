@@ -1,32 +1,35 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import cgi
-import cgitb
 import os
 import sys
 import string
 import pickle
 from datetime import datetime
+
+# On conserve la logique de fallback pour l'import JSON,
+# au cas où un ancien environnement ne l'aurait pas.
 try:
     import json
 except ImportError:
-	sys.path.append(os.getcwd() + '/htbin/simplejson')
-	import simplejson as json 
+    sys.path.append(os.getcwd() + '/htbin/simplejson')
+    import simplejson as json
 
-cgitb.enable()
+def main():
+    # En-têtes HTTP
+    print('Cache-Control: no-cache')
+    print('Content-type: application/json')
+    print()
 
-print('Cache-Control: no-cache')
-print('Content-type: application/json')
-print('')
+    # Lecture du fichier chat.dat
+    msglist = []
+    with open('../data/chat.dat', 'r', encoding='utf-8') as data_file:
+        for line in data_file:
+            # Chaque ligne contient un objet JSON
+            msglist.append(json.loads(line))
 
+    # Conversion de la liste en JSON et affichage
+    print(json.dumps(msglist))
 
-data_file = open('../data/chat.dat','r')
-
-msglist = list()
-for line in data_file:
-	msglist.append(json.loads(line))
-
-data_file.close()
-
-print((json.dumps(msglist)))
+if __name__ == '__main__':
+    main()
