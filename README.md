@@ -4,6 +4,8 @@ A website about history of bodybuilding
 ## Overview
 This project is a web application built with HTML, CSS, JavaScript, and Python. It includes various features such as user registration, login, and chat functionality.
 
+---
+
 ## Directory Structure
     Web/
     ├── httpd.py
@@ -50,12 +52,22 @@ This project is a web application built with HTML, CSS, JavaScript, and Python. 
     │       ├── table.css
     │       └── text.css
 
+---
 
 ## Features
 - **User Registration**: Users can register an account.
 - **User Login**: Registered users can log in.
 - **Chat Functionality**: Users can send and receive messages in a chatbox.
 - **Responsive Design**: The application is designed to be responsive and user-friendly.
+
+---
+
+## 🌐 Live Demo
+
+You can view the live demo of the website here:  
+[Travel-Web-Page on Netlify](https://travel-goals-page.netlify.app) (without server-side)
+
+---
 
 ## Installation & Usage
 1. Navigate to the project folder.  
@@ -68,6 +80,7 @@ This project is a web application built with HTML, CSS, JavaScript, and Python. 
     http://localhost:****
 - Replace **** with the port number.
 
+---
 
 ## File Descriptions
 - **httpd.py**: Main server script to run the web application.
@@ -79,6 +92,7 @@ This project is a web application built with HTML, CSS, JavaScript, and Python. 
   - **javascript/**: Contains JavaScript files for client-side functionality.
   - **styles/**: Contains CSS files for styling the web pages.
 
+---
 
 ## Acknowledgements
 - Thanks to the developers of the libraries and tools used in this project.
