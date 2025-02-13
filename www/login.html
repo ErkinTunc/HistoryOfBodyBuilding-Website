@@ -21,9 +21,23 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
     <link rel="manifest" href="img/favicon/site.webmanifest" />
   </head>
 
@@ -113,7 +127,7 @@
               <img src="img/arnold.jpg" alt="Arnold Schwarzenegger posing" style="width:60%;" class="center">
             </div>
           -->
-          </header>
+        </header>
 
         <main>
           <nav class="menu-nav">
@@ -135,21 +149,27 @@
 
         <div class="main">
           <h3>Enter your login credentials</h3>
-          <form id="myForm" action="htbin/login.py" onsubmit="solve(event)">
+          <form
+            method="POST"
+            action="htbin/login.py"
+            id="registration-form"
+            novalidate
+          >
             <label for="first">Username:</label>
             <input
               type="text"
-              id="first"
-              name="first"
+              id="username"
+              name="username"
               placeholder="Enter your Username"
+              minlength="6"
               required
             />
 
             <label for="password">Password:</label>
             <input
-              type="password"
-              id="password"
-              name="password"
+              type="text"
+              id="userpwd"
+              name="userpwd"
               placeholder="Enter your Password"
               required
             />
@@ -158,7 +178,7 @@
               <button type="submit">Submit</button>
             </div>
           </form>
-
+          <p id="message-area"></p>
           <p>
             Not registered?
             <a href="register.html" style="text-decoration: none">

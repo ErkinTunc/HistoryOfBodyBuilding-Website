@@ -21,9 +21,23 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
     <link rel="manifest" href="img/favicon/site.webmanifest" />
   </head>
 
@@ -129,78 +143,51 @@
         <div class="main">
           <h3>Enter your registration credentials</h3>
 
-          <form id="registrationForm" action="htbin/register.py" method="post">
-            <div class="input-control">
-              <label for="username">Username:</label>
-              <input
-                type="text"
-                id="username"
-                name="username"
-                placeholder="Enter your Username"
-                autocomplete="username"
-              />
-              <div class="error"></div>
-            </div>
+          <form
+            method="POST"
+            action="htbin/register.py"
+            id="registration-form"
+            novalidate
+          >
+            <ul>
+              <li class="input-control">
+                <label for="username">Your username</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  required
+                  minlength="6"
+                />
+              </li>
 
-            <div class="input-control">
-              <label for="useremail">Email:</label>
-              <input
-                type="text"
-                id="useremail"
-                name="useremail"
-                placeholder="Enter your Email Address"
-                autocomplete="email"
-              />
-              <div class="error"></div>
-            </div>
+              <li class="input-control">
+                <label for="useremail">Your email address</label>
+                <input type="text" name="useremail" id="useremail" required />
+              </li>
 
-            <div class="input-control">
-              <label for="userpwd">Password:</label>
-              <input
-                type="password"
-                id="userpwd"
-                name="userpwd"
-                placeholder="Enter your Password"
-                autocomplete="new-password"
-              />
-              <div class="error"></div>
-            </div>
-
-            <div class="input-control">
-              <label for="firstname">First Name:</label>
-              <input
-                type="text"
-                id="firstname"
-                name="firstname"
-                placeholder="Enter your First Name"
-                autocomplete="given-name"
-              />
-              <div class="error"></div>
-            </div>
-
-            <div class="input-control">
-              <label for="lastname">Last Name:</label>
-              <input
-                type="text"
-                id="lastname"
-                name="lastname"
-                placeholder="Enter your Last Name"
-                autocomplete="family-name"
-              />
-              <div class="error"></div>
-            </div>
-
-            <div class="input-control">
-              <label for="birthdate">Birth Date:</label>
-              <input
-                type="text"
-                id="birthdate"
-                name="birthdate"
-                placeholder="**/**/****"
-                autocomplete="bday"
-              />
-              <div class="error"></div>
-            </div>
+              <li class="input-control">
+                <label for="userpwd">Your password</label>
+                <input type="text" name="userpwd" id="userpwd" required />
+              </li>
+              <li class="input-control">
+                <label for="firstname">Your First name</label>
+                <input type="text" name="firstname" id="firstname" required />
+              </li>
+              <li class="input-control">
+                <label for="lastname">Your Last name</label>
+                <input type="text" name="lastname" id="lastname" required />
+              </li>
+              <li class="input-control">
+                <label for="lastname">Your Birthdate</label>
+                <input
+                  type="text"
+                  name="birthdate"
+                  id="birthdate"
+                  placeholder="dd/mm/yyyy"
+                />
+              </li>
+            </ul>
 
             <div class="wrap">
               <button type="submit" id="submitBtn">Submit</button>
