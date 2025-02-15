@@ -11,20 +11,46 @@
 
     <title>History Of Bodybuilding</title>
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/shared.css" />
     <link rel="stylesheet" href="styles/buttons.css" />
     <link rel="stylesheet" href="styles/text.css" />
     <link rel="stylesheet" href="styles/flexbox.css" />
-    <link rel="stylesheet" href="styles/default.css" />
     <link rel="stylesheet" href="styles/images.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+
+    <!-- Text Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
     <link rel="manifest" href="img/favicon/site.webmanifest" />
   </head>
 
@@ -56,7 +82,7 @@
         </li>
 
         <li>
-          <a href="structure2.html">
+          <a href="eras.html">
             <i class="bx bxs-food-menu"></i>
             <span class="nav-item">Eras</span>
           </a>
@@ -72,7 +98,7 @@
         </li>
 
         <li>
-          <a href="structure4.html">
+          <a href="videos.html">
             <i class="bx bx-video"></i>
             <span class="nav-item">Videos</span>
           </a>
@@ -95,13 +121,7 @@
           <span class="tooltip">Login</span>
         </li>
 
-        <li>
-          <a href="#">
-            <i class="bx bxs-log-out"></i>
-            <span class="nav-item">Logout</span>
-          </a>
-          <span class="tooltip">Logout</span>
-        </li>
+        
       </ul>
     </nav>
 
@@ -109,17 +129,24 @@
       <div class="container">
         <header>
           <h1 class="main-title-text">History Of Bodybuilding</h1>
-          <!--
-            <div class="container-image">
-              <img src="img/arnold.jpg" alt="Arnold Schwarzenegger posing" style="width:60%;" class="center">
-            </div>
-          -->
         </header>
 
-        <main>
+        <nav class="menu-nav">
+          <ul class="menu-container">
+            <li><a href="#section1" class="join-button2">Dashboard</a></li>
+            <li>
+              <a href="#section2" class="join-button2">Eras of Bodybuilding</a>
+            </li>
+            <li>
+              <a href="#section3" class="join-button2">Muscle Growth</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section>
           <nav class="menu-nav">
             <ul class="menu-container">
-              <li><a href="#section1" class="join-button2">Dashboard</a></li>
+              <li><a href="#section1" class="join-button2">Definition</a></li>
               <li>
                 <a href="#section2" class="join-button2"
                   >Eras of Bodybuilding</a
@@ -130,10 +157,8 @@
               </li>
             </ul>
           </nav>
-        </main>
 
-        <section id="section1">
-          <article>
+          <article id="section1">
             <h2>Brief Definition of Bodybuilding</h2>
             <p>
               Bodybuilding is the practice of progressive resistance exercise to
@@ -180,7 +205,7 @@
 
             <p>
               For further exploration of the eras, click the button:
-              <a href="structure2.html" class="tweet-button2"
+              <a href="eras.html" class="tweet-button2"
                 >Eras of Bodybuilding</a
               >
             </p>
@@ -208,7 +233,7 @@
             <p>
               In this section, you can find useful videos featuring well-known
               bodybuilders that explain their methods, ambition, and mentality.
-              <a href="structure4.html" class="tweet-button2">Explore Videos</a>
+              <a href="videos.html" class="tweet-button2">Explore Videos</a>
             </p>
           </article>
 
@@ -227,14 +252,14 @@
           <ul class="menu-container">
             <li><a href="index.html" class="join-button2">Dashboard</a></li>
             <li>
-              <a href="structure2.html" class="join-button2"
+              <a href="eras.html" class="join-button2"
                 >Eras of Bodybuilding</a
               >
             </li>
             <li>
               <a href="structure3.html" class="join-button2">Muscle Growth</a>
             </li>
-            <li><a href="structure4.html" class="join-button2">Videos</a></li>
+            <li><a href="videos.html" class="join-button2">Videos</a></li>
             <li><a href="structure5.html" class="join-button2">Orders</a></li>
           </ul>
         </footer>

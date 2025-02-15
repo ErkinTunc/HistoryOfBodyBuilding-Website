@@ -1,38 +1,13 @@
 p {
-  font-family: "arial", sans-serif;
-  font-size: 14px;
-
-  margin-top: 0;
-  margin-bottom: 0;
   text-align: justify;
   margin-bottom: 1em; /* adds 1 unit of spacing after each paragraph */
 }
 
-.main-title-text {
-  font-family: "Gothic";
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  color: white;
-}
 
-.title-text2 {
-  color: #88be98;
-  align-content: center;
-}
 
-h1 {
-  color: #030303;
-  font-family: "Lato", sans-serif;
-  font-size: 54px;
-  font-weight: 300;
-  line-height: 58px;
-  margin: 0 0 58px;
-}
 
+
+/* Video Page */
 .video-stats {
   font-size: 14px;
   color: rgb(96, 96, 96);
