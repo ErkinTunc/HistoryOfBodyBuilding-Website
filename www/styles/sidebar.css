@@ -1,4 +1,3 @@
-
 .user-img {
   width: 50px;
   border-radius: 100%;
@@ -138,11 +137,6 @@
   z-index: 20;
 }
 
-article{
-  z-index: 1;
-  position: relative;
-}
-
 .sidebar.active ul li .tooltip {
   display: none;
 }
@@ -153,7 +147,7 @@ article{
   transition: all 0.5s ease;
   width: calc(100% - 80px);
   padding: 0 2rem;
-  margin: 0 6rem;
+  margin: 0px 0rem 0 6.2rem;
 }
 
 .main-content-title {

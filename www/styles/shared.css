@@ -1,7 +1,10 @@
 body {
   font-family: "Open Sans", serif;
   background-attachment: fixed;
-  
+
+  position: relative;
+  display: flex;
+
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#050507+2,2a2e37+53,373b47+100 */
   background: #0091ce; /* Old browsers */
   background: -moz-linear-gradient(
@@ -22,9 +25,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b3056', endColorstr='#0091ce',GradientType=0 ); /* IE6-9 */
 }
 
-body {
-  position: relative;
-  display: flex;
+p {
+  text-align: justify;
+  margin-bottom: 1em; /* adds 1 unit of spacing after each paragraph */
 }
 
 section,
@@ -33,25 +36,12 @@ aside {
   display: block;
 }
 
-section:after,
-article:after,
-aside:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 section {
-  margin: auto;
-  padding: 20px;
-  border-radius: 5px;
+  width: 80%;
+  padding: 0.5rem ;
+  border-radius: 8px;
   box-shadow: 0px 3px 15px #000;
-  width: 70%;
-  margin: auto;
-  margin-bottom: 35px;
-  margin-right: 10%;
   background: rgba(175, 170, 170, 0.8);
-  box-sizing: content-box;
 }
 
 article {
@@ -59,50 +49,55 @@ article {
   border-radius: 5px;
   box-shadow: 0px 3px 15px #000;
   width: 85%;
-  margin: auto;
-  margin-bottom: 35px;
   background: #faf9f6;
-  overflow: hidden;
-  box-sizing: content-box;
-}
-.center {
-  align-items: center;
-}
-
-.center table {
-  display: revert-layer;
-  align-items: center;
-}
-
-aside {
-  float: left;
-  width: 10%;
-  padding-left: 0%;
-  margin-left: 2%;
-  border-radius: 5%;
-  font-style: italic;
-  background-color: lightgray;
-  box-sizing: content-box;
-}
-
-.aside-menu {
-  float: left;
-  background-color: lightgray;
-  position: absolute;
+  margin: 2rem 5%;
 }
 
 footer {
-  /*position: bottom;*/
-  right: 0;
-  bottom: 0;
-  margin-top: 2%;
-  width: 100%;
   background-color: rgba(29, 27, 27, 0.158);
   color: rgb(255, 255, 255);
   text-align: center;
-  opacity: 1;
 }
 
-div .video {
-  display: inline-block;
+/*============== Table ==================*/
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
 }
